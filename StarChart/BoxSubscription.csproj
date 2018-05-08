@@ -276,6 +276,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\app\pages\login.html" />
+    <Content Include="Scripts\app\pages\mgmtDashSubscriptions.html" />
     <Content Include="Scripts\app\pages\subscribe.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

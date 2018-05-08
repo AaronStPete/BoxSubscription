@@ -1,0 +1,24 @@
+﻿<a class="btn btn-primary">Subscriptions</a><a class="btn btn-primary">Products</a>
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Ph #</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Save Changes</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="form-horizontal">
+            <td><input class="form-control" type="text" placeholder="Full Name" value="{{SubscriberName}}" /></td>
+            <td><input class="form-control" type="tel" placeholder="Phone" value="{{SubscriberPhone}}" /></td>
+            <td><input class="form-control" type="email" placeholder="Email" value="{{SubscriberEmail}}" /></td>
+            <td><input class="form-control" type="text" placeholder="Address" value="{{SubscriberAddress}}" /></td>
+            <td><button class="btn btn-success">Save</button></td>
+            <td><button class="btn btn-danger">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
