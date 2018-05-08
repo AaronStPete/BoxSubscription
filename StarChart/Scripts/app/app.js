@@ -7,6 +7,11 @@ app.config(function ($routeProvider) {
         controller: 'homeController'
     });
 
+    $routeProvider.when("/subscribe", {
+        templateUrl: '/scripts/app/pages/subscribe.html',
+        controller: 'homeController'
+    });
+
     $routeProvider.otherwise({ redirectTo: "/home" });
 });
 

@@ -15,3 +15,15 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.subscriptionWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.month h3 {
+    font-weight:bold;
+    text-align: center;
+}
